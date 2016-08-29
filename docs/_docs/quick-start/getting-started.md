@@ -13,28 +13,28 @@ and productive quickly.
 
 ## Installation
 
-The [installation guides](/docs/editor/setup/) will provide you detailed information to install
+The [installation guides](/nuclide/docs/editor/setup/) will provide you detailed information to install
 Nuclide on your platform, but assuming you have met your platform dependent prerequisites
-([Mac](/docs/editor/setup/#mac__prerequisites) | [Linux](/docs/editor/setup/#linux__prerequisites)),
+([Mac](/nuclide/docs/editor/setup/#mac__prerequisites) | [Linux](/nuclide/docs/editor/setup/#linux__prerequisites)),
 you can install Nuclide with one command:
 
 ```bash
 apm install nuclide
 ```
 
-> Nuclide is [not currently supported on Windows](/docs/editor/setup/#windows).
+> Nuclide is [not currently supported on Windows](/nuclide/docs/editor/setup/#windows).
 
 While technically optional, in order for features such as [`Quick Open`](#quick-open) to work
 correctly, you will also need to install [`Watchman`](https://facebook.github.io/watchman/) and
 ensure it is on your `$PATH`. There are other
-[recommended installations](/docs/editor/setup/#post-installation) as well.
+[recommended installations](/nuclide/docs/editor/setup/#post-installation) as well.
 
 ## Launch
 
-After installation, you launch Nuclide by [opening Atom](/docs/editor/basics/#opening). Once Atom
+After installation, you launch Nuclide by [opening Atom](/nuclide/docs/editor/basics/#opening). Once Atom
 is open, you should see the Nuclide home page.
 
-![](/static/images/docs/quick-start-getting-started-home-page.png)
+![](/nuclide/static/images/docs/quick-start-getting-started-home-page.png)
 
 The left-hand side pane is the Nuclide file-tree view. The main pane contains introductory
 information about Nuclide and the Quick Launch Menu. This main pane is also where you will be
@@ -50,51 +50,51 @@ To add a project, you can click on the `Add Project Folder` button in the left-h
 the keyboard shortcut `Cmd-Shift-O` (`ctrl-shift-O` on Linux), or choose
 `File | Add Project Folder` from the Atom menu.
 
-![](/static/images/docs/quick-start-getting-started-add-project.png)
+![](/nuclide/static/images/docs/quick-start-getting-started-add-project.png)
 
 After adding a project you will see the root of your project at the top of the file tree and all
 files and folders as a tree hierarchy underneath it.
 
-![](/static/images/docs/quick-start-getting-started-file-tree-view.png)
+![](/nuclide/static/images/docs/quick-start-getting-started-file-tree-view.png)
 
 ## Quick Launch Menu
 
 On the Nuclide home page you will find the *Quick Launch Menu* that gives quick access to many of
 the popular features of Nuclide. Click on the `Try It` button to use each feature.
 
-![](/static/images/docs/quick-start-getting-started-quick-launch.png)
+![](/nuclide/static/images/docs/quick-start-getting-started-quick-launch.png)
 
 ## Quick Open
 
-Nuclide's [*Quick Open*](/docs/features/quick-open) feature gives you access to Nuclide's file
+Nuclide's [*Quick Open*](/nuclide/docs/features/quick-open) feature gives you access to Nuclide's file
 search mechanism, which includes *omnisearch* which can find anything in your opened project.
 Click on `Try It`, or `Cmd-T` (`ctrl-T` on Linux) to access the feature.
 
-![](/static/images/docs/quick-start-getting-started-quick-open.png)
+![](/nuclide/static/images/docs/quick-start-getting-started-quick-open.png)
 
 You can also search directly by filename, content within open files and see which files have been
 recently opened.
 
 ## Remote Connection
 
-Nuclide provides the ability to do [remote development](/docs/features/remote/) out of the box. This
+Nuclide provides the ability to do [remote development](/nuclide/docs/features/remote/) out of the box. This
 allows you to have Nuclide installed on a local machine, your project on a remote machine, and have
 your editing experience be seamless between the two.
 
 Nuclide provides a *server* that bridges your local client with the remote development machine. In
 order for remote development to work correctly, you must meet the
-[prerequisites](/docs/features/remote/#nuclide-server__prerequisites) on the remote machine before
+[prerequisites](/nuclide/docs/features/remote/#nuclide-server__prerequisites) on the remote machine before
 installing the Nuclide server.
 
 After the prerequisites are met, you then
-[install the server](/docs/features/remote/#nuclide-server__setup) on the remote machine.
+[install the server](/nuclide/docs/features/remote/#nuclide-server__setup) on the remote machine.
 
 In order to connect to your remote project, click on the `Try It` button next to
 *Remote Connection* in the *Quick Launch Menu*. You can also select `Packages | Connect`, use the
 keyboard shortcut `ctrl-shift-cmd-C`, or click on the `Add Remote Project Folder`
 in the left-hand pane (if you have other projects open, however, that button will not be there).
 
-![](/static/images/docs/quick-start-getting-started-remote-connection-dialog.png)
+![](/nuclide/static/images/docs/quick-start-getting-started-remote-connection-dialog.png)
 
 Enter all the necessary credentials, including the username to log in to the remote server, the
 server's address, the actual root directory of the remote project you want to open, and, assuming
@@ -106,16 +106,16 @@ properly synchronized.
 
 ## Diff View
 
-Nuclide has built-in support for [Mercurial-based repositories](/docs/features/hg). If your
+Nuclide has built-in support for [Mercurial-based repositories](/nuclide/docs/features/hg). If your
 project is using Mercurial, one of the features that may help your workflow is the
-[*Diff View*](/docs/features/hg/#diff-view). This allows you to quickly see what has changed in the
+[*Diff View*](/nuclide/docs/features/hg/#diff-view). This allows you to quickly see what has changed in the
 files you have modified. It shows what has changed from the current committed revision which you
 are tracking.
 
 To access the diff view, click on the `Try It` button (or use the `alt-cmd-shift-D` shortcut or
 `Packages | Diff View`) after making a change to one of the files in your Mercurial project.
 
-![](/static/images/docs/quick-start-getting-started-diff-view.png)
+![](/nuclide/static/images/docs/quick-start-getting-started-diff-view.png)
 
 Notice how the *Diff View* window tab appears. After clicking on a changed file in the right-hand
 pane, the *Diff View* window will highlight what changed.

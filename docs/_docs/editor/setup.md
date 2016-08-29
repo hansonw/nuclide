@@ -11,7 +11,7 @@ There are two supported platforms for Nuclide, [Linux](#linux) and [Mac OS X](#m
 > [not fully supported](https://github.com/facebook/nuclide/issues/401).
 
 These instructions are for installing the released package of Nuclide. For advanced users, you can
-[build from source](/docs/advanced-topics/building-from-source), but this is not officially
+[build from source](/nuclide/docs/advanced-topics/building-from-source), but this is not officially
 supported and stability is not guaranteed.
 
 * TOC
@@ -113,9 +113,9 @@ Or you can go through the Atom Packages UI to install Atom:
 Atom can be installed on Windows. Some features of Nuclide may work on Windows, but the full
 Nuclide experience is [not yet supported](https://github.com/facebook/nuclide/issues/321).
 
-> There has been anecdotal success in getting basic [remote development](/docs/features/remote)
+> There has been anecdotal success in getting basic [remote development](/nuclide/docs/features/remote)
 > functionality to work on Windows (seeing the directory tree, editing remote files, etc.). If you
-> have [Hack](/docs/languages/hack) or [Flow](/docs/languages/flow) on a remote server, it is
+> have [Hack](/nuclide/docs/languages/hack) or [Flow](/nuclide/docs/languages/flow) on a remote server, it is
 > possible that you could get some of those language integrations to work as well. However, local
 > projects seem to be very broken.
 
@@ -131,10 +131,10 @@ rather than obtrusively modify their work environment.
 
 Recommended packages include:
 
-- [`tool-bar`](https://atom.io/packages/tool-bar) to enable the [Nuclide toolbar](/docs/features/toolbar/).
+- [`tool-bar`](https://atom.io/packages/tool-bar) to enable the [Nuclide toolbar](/nuclide/docs/features/toolbar/).
 - [`sort-lines`](https://atom.io/packages/sort-lines) to enable sorting lines of text.
-- [`language-ocaml`](https://atom.io/packages/language-ocaml) to enable [OCaml](/docs/languages/other/#ocaml) language syntax highlighting.
-- [`language-babel`](https://atom.io/packages/language-babel) to enable language grammar for [JS, Flow and React JS](/docs/languages/flow/), etc.
+- [`language-ocaml`](https://atom.io/packages/language-ocaml) to enable [OCaml](/nuclide/docs/languages/other/#ocaml) language syntax highlighting.
+- [`language-babel`](https://atom.io/packages/language-babel) to enable language grammar for [JS, Flow and React JS](/nuclide/docs/languages/flow/), etc.
 - ...and [others](https://github.com/facebook/nuclide/blob/master/package.json) under `package-deps`.
 
 In order to install all of the recommended packages, go to
@@ -143,21 +143,21 @@ In order to install all of the recommended packages, go to
 
 You will find a checkbox allowing you enable the recommended settings.
 
-![](/static/images/docs/editor-setup-recommended-packages.png)
+![](/nuclide/static/images/docs/editor-setup-recommended-packages.png)
 
 ### Installing Nuclide Server
 
 If you want to use Nuclide for remote development, you'll also need to setup the NPM `nuclide`
-package. Instructions can be found in the [Remote Development docs](/docs/features/remote/).
+package. Instructions can be found in the [Remote Development docs](/nuclide/docs/features/remote/).
 
 ### Other Installations
 
 To benefit from all of Nuclide's features, we recommend you also install the following:
 
-* [Flow](/docs/languages/flow/)
-* [Hack](/docs/languages/hack/)
-* [Mercurial](/docs/features/hg/)
+* [Flow](/nuclide/docs/languages/flow/)
+* [Hack](/nuclide/docs/languages/hack/)
+* [Mercurial](/nuclide/docs/features/hg/)
 * [Watchman](https://facebook.github.io/watchman/) - version 3.2 or above. It must be in
   `/usr/local/bin/` or in your `$PATH`. Without Watchman, Nuclide will lose some functionality in
-  its [Mercurial](/docs/features/hg), [Remote Development](/docs/features/remote), and
-  [`Quick Open`](/docs/quick-start/getting-started/#quick-open) features.
+  its [Mercurial](/nuclide/docs/features/hg), [Remote Development](/nuclide/docs/features/remote), and
+  [`Quick Open`](/nuclide/docs/quick-start/getting-started/#quick-open) features.

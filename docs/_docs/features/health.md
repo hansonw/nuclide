@@ -9,7 +9,7 @@ Nuclide uses computing resources. We try to keep the resource usage as low as po
 features of Nuclide is a health monitor that allows you to track CPU, memory, heap usage and other
 statistics.
 
-![](/static/images/docs/feature-health-overview.png)
+![](/nuclide/static/images/docs/feature-health-overview.png)
 
 * TOC
 {:toc}
@@ -17,12 +17,12 @@ statistics.
 ## Toggling
 
 The health statistics come up as a tabbed window in the
-[main editor](/docs/editor/basics/#editing-area). To bring up this tab, you have four primary
+[main editor](/nuclide/docs/editor/basics/#editing-area). To bring up this tab, you have four primary
 options:
 
 - `ctrl-option-shift-H` (`ctrl-alt-shift-H`)
-- The [Nuclide toolbar](/docs/features/toolbar)
-- The [command palette](/docs/editor/basics/#command-palette)
+- The [Nuclide toolbar](/nuclide/docs/features/toolbar)
+- The [command palette](/nuclide/docs/editor/basics/#command-palette)
 
 ## Statistics
 

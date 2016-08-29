@@ -5,11 +5,11 @@ layout: docs
 permalink: /docs/platforms/ios/
 ---
 
-Nuclide supports both native iOS development in [Objective-C](/docs/languages/objective-c) and
-cross-platform development in [React Native](/docs/platforms/react-native).
+Nuclide supports both native iOS development in [Objective-C](/nuclide/docs/languages/objective-c) and
+cross-platform development in [React Native](/nuclide/docs/platforms/react-native).
 
 > This section discusses primarily native iOS development since there is a whole separate section
-> dedicated to [React Native](/docs/platforms/react-native).
+> dedicated to [React Native](/nuclide/docs/platforms/react-native).
 
 <br/>
 
@@ -18,17 +18,17 @@ cross-platform development in [React Native](/docs/platforms/react-native).
 
 ## Features
 
-When you open an [Objective-C](/docs/languages/objective-c/) file (e.g., `.h`, `.m`, `.mm`), you
-automatically get support for default [features](/docs/languages/objective-c/#default-features) such
+When you open an [Objective-C](/nuclide/docs/languages/objective-c/) file (e.g., `.h`, `.m`, `.mm`), you
+automatically get support for default [features](/nuclide/docs/languages/objective-c/#default-features) such
 as
-[automatic bracket completion](/docs/languages/objective-c/#default-features__automatic-bracket-completion).
+[automatic bracket completion](/nuclide/docs/languages/objective-c/#default-features__automatic-bracket-completion).
 
 However, if you are compiling your project with [Buck](http://buckbuild.com), you get richer
-[features](/docs/languages/objective-c/#buck-enabled-features) such as
-[autocomplete](/docs/languages/objective-c/#buck-enabled-features__autocomplete) and
-[jump to definition](/docs/languages/objective-c/#buck-enabled-features__jump-to-definition).
+[features](/nuclide/docs/languages/objective-c/#buck-enabled-features) such as
+[autocomplete](/nuclide/docs/languages/objective-c/#buck-enabled-features__autocomplete) and
+[jump to definition](/nuclide/docs/languages/objective-c/#buck-enabled-features__jump-to-definition).
 
-![](/static/images/docs/platform-ios-native-autocomplete.png)
+![](/nuclide/static/images/docs/platform-ios-native-autocomplete.png)
 
 ## Running Applications
 
@@ -38,24 +38,24 @@ You can also use the command-line tools such as `xcodebuild`, etc.
 ### Buck Integration
 
 Nuclide supports the [Buck](https://buckbuild.com/) build system. See the
-[Buck guide](/docs/features/buck) for how to build, run and debug iOS apps.
+[Buck guide](/nuclide/docs/features/buck) for how to build, run and debug iOS apps.
 
 ## Debugging
 
-Debugging native [Objective-C](/docs/languages/objective-c/) iOS applications is
-[supported using Buck](/docs/features/buck/#debug).
+Debugging native [Objective-C](/nuclide/docs/languages/objective-c/) iOS applications is
+[supported using Buck](/nuclide/docs/features/buck/#debug).
 
-> [React Native](/docs/platforms/react-native/#debugging) is also supported.
+> [React Native](/nuclide/docs/platforms/react-native/#debugging) is also supported.
 
 ## Simulator Logs
 
 When running your iOS project in the iOS simulator, you can open and view the simulator logs
-directly within Nuclide. From the [command palette](/docs/editor/basics/#command-palette), search
+directly within Nuclide. From the [command palette](/nuclide/docs/editor/basics/#command-palette), search
 for `Nuclide iOS Simulator Logs: Start`.
 
-![](/static/images/docs/platform-ios-toggle-simulator.png)
+![](/nuclide/static/images/docs/platform-ios-toggle-simulator.png)
 
-![](/static/images/docs/platform-ios-simulator-output.png)
+![](/nuclide/static/images/docs/platform-ios-simulator-output.png)
 
 > Currently, the logs are very verbose as they do not delineate between actual underlying simulator
 > information with the actual running application.

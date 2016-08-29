@@ -32,7 +32,7 @@ key items of note are:
     * You have an `.hhconfig` file at the root of your project.
     * You have `<?hh` at the top of your `.php` or `.hh` file.
 
-> If you are planning on developing with Hack [remotely](/docs/features/remote), ensure HHVM and
+> If you are planning on developing with Hack [remotely](/nuclide/docs/features/remote), ensure HHVM and
 > Hack are installed on the *remote* machine.
 
 ## Features
@@ -44,30 +44,30 @@ Hack's integration into Nuclide provides you with productivity features such as:
 * [Jump to Definition](#features__jump-to-definition)
 * [Inline (mouse over) typehinting](#features__type-hinting)
 * [Code formatting](#features__code-formatting)
-* [Omnisearch](/docs/features/quick-open), with a special
-* [Hack symbol](/docs/features/quick-open#hack-symbols) search pane.
+* [Omnisearch](/nuclide/docs/features/quick-open), with a special
+* [Hack symbol](/nuclide/docs/features/quick-open#hack-symbols) search pane.
 
 ### Code Diagnostics
 
 If you write code that will not correctly
 [typecheck](https://docs.hhvm.com/hack/typechecker/introduction), Nuclide has code diagnostics that
 will show you the error. You can see the error in two places, inline within the
-[main text editor](/docs/editor/basics/#editing-area) and in the
-[code diagnostics](/docs/editor/basics/#status-bar__code-diagnostics) pane.
+[main text editor](/nuclide/docs/editor/basics/#editing-area) and in the
+[code diagnostics](/nuclide/docs/editor/basics/#status-bar__code-diagnostics) pane.
 
-![](/static/images/docs/language-hack-code-diagnostics.png)
+![](/nuclide/static/images/docs/language-hack-code-diagnostics.png)
 
-Hover over the sideways red triangle in the [gutter](/docs/editor/basics/#gutter) to see the Hack
+Hover over the sideways red triangle in the [gutter](/nuclide/docs/editor/basics/#gutter) to see the Hack
 error inline.
 
-![](/static/images/docs/language-hack-code-diagnostics-gutter.png)
+![](/nuclide/static/images/docs/language-hack-code-diagnostics-gutter.png)
 
 ### Autocomplete
 
 Given that Nuclide has access to all of the type information within your project and the built-in
 types provided by Hack, autocomplete just works.
 
-![](/static/images/docs/language-hack-autocomplete.png)
+![](/nuclide/static/images/docs/language-hack-autocomplete.png)
 
 ### Jump to Definition
 
@@ -79,21 +79,21 @@ Nuclide provides a jump to definition/symbol feature for Hack programs.
 For example, if you want to go to the definition of `getPages()`, you will hover over `getPages()`
 and either press `cmd-<mouse click>` or `cmd-option-Enter` (`ctrl-alt-Enter` on Linux).
 
-![](/static/images/docs/language-hack-jump-to-definition-link.png)
+![](/nuclide/static/images/docs/language-hack-jump-to-definition-link.png)
 
-![](/static/images/docs/language-hack-jump-to-definition-result.png)
+![](/nuclide/static/images/docs/language-hack-jump-to-definition-result.png)
 
 ### Type Hinting
 
 If you hover over a variable in your Hack file, you can get the type of the variable directly
 inline.
 
-![](/static/images/docs/language-hack-typehint.png)
+![](/nuclide/static/images/docs/language-hack-typehint.png)
 
 In fact, you can even pin that type hint so that it always shows as well. Just click on the pin
 when hovering over a variable and it will be pinned.
 
-![](/static/images/docs/language-hack-pinned-typehint.png)
+![](/nuclide/static/images/docs/language-hack-pinned-typehint.png)
 
 The highlighted variables show that their type variables have been pinned. If you hover over the
 type hint, its associated variable will have motion in its highlight.
@@ -109,12 +109,12 @@ Nuclide can take your Hack code and format it according to a built-in set of cod
 
 For example, here is a bit of code that looks relatively haphazard from a formatting perspective.
 
-![](/static/images/docs/language-hack-badly-formatted.png)
+![](/nuclide/static/images/docs/language-hack-badly-formatted.png)
 
 If your cursor is inside the function and you `cmd-shift-C` (`ctrl-shift-C` on Linux), your will be
 formatted.
 
-![](/static/images/docs/language-hack-well-formatted.png)
+![](/nuclide/static/images/docs/language-hack-well-formatted.png)
 
 ## Debugging
 
@@ -125,7 +125,7 @@ Hack and PHP code.
 > Theoretically, PHP debugging should work on other XDebug-compatible runtimes like Zend, but we
 > have only tested this with HHVM.
 
-> Currently, we only support debugging [remote](/docs/features/remote/) projects.
+> Currently, we only support debugging [remote](/nuclide/docs/features/remote/) projects.
 
 ### XDebug
 
@@ -153,29 +153,29 @@ xdebug.remote_port = 9000
 ### Debugging: HHVM Toolbar
 
 Nuclide provides an HHVM toolbar. You can launch the toolbar from the
-[Nuclide toolbar](/docs/features/toolbar/#buttons) or from the
-[command-palette](/docs/editor/basics/#command-palette) with `Nuclide HHVM Toolbar: Toggle`.
+[Nuclide toolbar](/nuclide/docs/features/toolbar/#buttons) or from the
+[command-palette](/nuclide/docs/editor/basics/#command-palette) with `Nuclide HHVM Toolbar: Toggle`.
 
 > You have to have a Hack or PHP file open to successfully launch the toolbar.
 
-![](/static/images/docs/feature-debugger-languages-hack-php-hhvm-toolbar.png)
+![](/nuclide/static/images/docs/feature-debugger-languages-hack-php-hhvm-toolbar.png)
 
 Now you can choose between debugging a webserver or a script.
 
-![](/static/images/docs/feature-debugger-languages-hack-php-hhvm-toolbar-webserver-script.png)
+![](/nuclide/static/images/docs/feature-debugger-languages-hack-php-hhvm-toolbar-webserver-script.png)
 
-Set [breakpoints](/docs/features/debugger/#basics__breakpoints) in your code.
+Set [breakpoints](/nuclide/docs/features/debugger/#basics__breakpoints) in your code.
 
 Once you decide the type of debugging you plan to do, click `Attach`. This will bring up the
 debugger UI and stop at the first breakpoint you set.
 
-You can then follow the [basic debugging information](/docs/features/debugger/#basics) provided
+You can then follow the [basic debugging information](/nuclide/docs/features/debugger/#basics) provided
 above and use the additional features of the Output Window, Evaluation and other HHVM-specific
 debugging settings as described below to debug your code.
 
 Here is an example of debugging a running HHVM server:
 
-![](/static/images/docs/feature-debugger-languages-hack-php-server-debugging.png)
+![](/nuclide/static/images/docs/feature-debugger-languages-hack-php-server-debugging.png)
 
 In both the script and server launching/attaching scenarios, the line at which you've set a
 breakpoint will highlight in blue when the breakpoint is hit. When this happens, execution of your
@@ -186,15 +186,15 @@ callstack, etc.
 
 You can also debug without using the HHVM Toolbar by debugging directly from the command-line.
 
-1. Have a PHP or Hack file active in the [editing area](/docs/editor/basics/#editing-area).
+1. Have a PHP or Hack file active in the [editing area](/nuclide/docs/editor/basics/#editing-area).
 2. `cmd-shift-Y` to bring up the process attachment UI.
 3. Choose the remote server that has your project and HHVM installed from the attachment UI.
 It should look similar to:
 
-    ![](/static/images/docs/feature-debugger-languages-hack-php-attach.png)
+    ![](/nuclide/static/images/docs/feature-debugger-languages-hack-php-attach.png)
 
 4. Click `Attach`.
-5. Set [breakpoints](/docs/features/debugger/#basics__breakpoints) in your code.
+5. Set [breakpoints](/nuclide/docs/features/debugger/#basics__breakpoints) in your code.
 6. Run your PHP/Hack script or server
     1. If you are running a script: `hhvm -c xdebug.ini your-script.php`
     2. If you are running a server: `hhvm -c xdebug.ini -m server`
@@ -210,7 +210,7 @@ separate pane. When debugging, HHVM will send its stdout to this window. This in
 
 ### Evaluation
 
-Basic [evaluation](/docs/features/debugger/#basics__evaluation) in the REPL works out of the box.  
+Basic [evaluation](/nuclide/docs/features/debugger/#basics__evaluation) in the REPL works out of the box.  
 You can also load bindings from your project so that you can interact with them in the console. To
 do this, make sure there is a `.hhconfig` file checked in at the root of your project, and also a
 `scripts/xdebug_includes.php` file.  `xdebug_includes.php` must contain at least one call to the
@@ -243,7 +243,7 @@ the script name that will be debugged, then use that as the filter.
 
 Go to `Settings | Packages | Nuclide | Settings` and look for:
 
-![](/static/images/docs/feature-debugger-languages-hack-php-filtering.png)
+![](/nuclide/static/images/docs/feature-debugger-languages-hack-php-filtering.png)
 
 ### Other Settings
 

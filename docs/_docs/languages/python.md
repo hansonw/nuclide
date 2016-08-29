@@ -31,7 +31,7 @@ Python's integration into Nuclide provides you with productivity features such a
 Nuclide integrates [Jedi](http://jedi.jedidjah.ch/) to provide fast,
 detailed, and context-aware autocompletion.
 
-![](/static/images/docs/language-python-autocomplete.png)
+![](/nuclide/static/images/docs/language-python-autocomplete.png)
 
 By default, Nuclide will provide tab-able snippets for function and method
 arguments. This behavior can be turned on or off at `Nuclide > Settings >
@@ -46,9 +46,9 @@ For example, to go to the definition of `get_all_patches()`, you can
 hover over `get_all_patches()`and either press `cmd-<mouse click>`
 (`ctrl-<mouse click>` on Linux) or `cmd-option-Enter` (`ctrl-alt-Enter` on Linux).
 
-![](/static/images/docs/language-python-jump-to-definition-link.png)
+![](/nuclide/static/images/docs/language-python-jump-to-definition-link.png)
 
-![](/static/images/docs/language-python-jump-to-definition-result.png)
+![](/nuclide/static/images/docs/language-python-jump-to-definition-result.png)
 
 Jump to definition also works for [Buck](http://buckbuild.com) config files.
 Since `BUCK` files are written in Python, you can use `cmd-<mouse-click>`
@@ -64,9 +64,9 @@ To format your code, press `cmd-shift-C` (`ctrl-shift-C` on Linux), or choose
 the `Format Code` option from the context menu. This will only format code
 within your text selection, or the whole file if no text is selected.
 
-![](/static/images/docs/language-python-code-format-before.png)
+![](/nuclide/static/images/docs/language-python-code-format-before.png)
 
-![](/static/images/docs/language-python-code-format-after.png)
+![](/nuclide/static/images/docs/language-python-code-format-after.png)
 
 In order for the code formatting feature to work, make sure that:
 
@@ -80,7 +80,7 @@ not work.
 Nuclide provides built-in diagnostics for Python, currently displaying lint messages
 from flake8.
 
-![](/static/images/docs/language-python-code-diagnostics.png)
+![](/nuclide/static/images/docs/language-python-code-diagnostics.png)
 
 To see lint messages, make sure you have [flake8](http://flake8.pycqa.org/en/latest/)
 installed on the machine that your project resides on. You can configure a custom
@@ -88,7 +88,7 @@ installed on the machine that your project resides on. You can configure a custo
 
 ### Outline View
 
-Nuclide provides an [outline view](/docs/features/outline-view) to quickly see
+Nuclide provides an [outline view](/nuclide/docs/features/outline-view) to quickly see
 and navigate the structure of your Python code.
 
-![](/static/images/docs/language-python-outline-view.png)
+![](/nuclide/static/images/docs/language-python-outline-view.png)

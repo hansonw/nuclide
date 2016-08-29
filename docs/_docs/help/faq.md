@@ -12,7 +12,7 @@ Here is an ever-growing list of frequently asked questions around Nuclide.
 
 ## How do I open Nuclide?
 
-See [opening](/docs/editor/basics/#opening) in the Nuclide [basics](/docs/editor/basics/#opening)
+See [opening](/nuclide/docs/editor/basics/#opening) in the Nuclide [basics](/nuclide/docs/editor/basics/#opening)
 section.
 
 ## What version of Nuclide is installed?

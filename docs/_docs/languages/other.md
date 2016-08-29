@@ -13,20 +13,20 @@ similar languages (e.g., Hack vs PHP); others are experimental.
 
 ## PHP
 
-Nuclide's PHP support is similar to its support for [Hack](/docs/languages/hack), except you will
+Nuclide's PHP support is similar to its support for [Hack](/nuclide/docs/languages/hack), except you will
 not get as full-featured diagnostics, type hinting, etc. since there is no
 [typechecker](https://docs.hhvm.com/hack/typechecker/introduction) to assist Nuclide with your project's metadata.
 
 ## JavaScript
 
-Nuclide's JavaScript support is similar to its support for [Flow](/docs/languages/flow), except
+Nuclide's JavaScript support is similar to its support for [Flow](/nuclide/docs/languages/flow), except
 you will not get as full-featured diagnostics, type hinting, etc. since there is no
 [typechecker](http://flowtype.org/) to assist Nuclide with your project's metadata.
-[Debugging through Node](/docs/features/debugger/#basics) is similar to
-[Flow](/docs/languages/flow/#debugging) as well.
+[Debugging through Node](/nuclide/docs/features/debugger/#basics) is similar to
+[Flow](/nuclide/docs/languages/flow/#debugging) as well.
 
 JavaScript is a primary language for [React Native](https://facebook.github.io/react-native/), and
-Nuclide is a great IDE for [developing React Native applications](/docs/platforms/react-native).
+Nuclide is a great IDE for [developing React Native applications](/nuclide/docs/platforms/react-native).
 
 ## OCaml
 

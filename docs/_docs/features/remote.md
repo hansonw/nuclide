@@ -8,7 +8,7 @@ permalink: /docs/features/remote/
 In addition to local development, Nuclide supports remote development. Using one of
 three authentication methods (Password, an SSH agent, or a private key), you can connect to a
 project on a remote machine. This project is then added to your
-[file tree](/docs/editor/basics/#project-and-file-explorer) as a remote project where development
+[file tree](/nuclide/docs/editor/basics/#project-and-file-explorer) as a remote project where development
 occurs just it would with a local project.
 
 * TOC
@@ -17,7 +17,7 @@ occurs just it would with a local project.
 ## Nuclide Server
 
 Nuclide has two main components, the client and the optional server. The client is
-[setup via an atom `apm` package](/docs/editor/setup/) on your local machine. The
+[setup via an atom `apm` package](/nuclide/docs/editor/setup/) on your local machine. The
 [server](#nuclide-server__setup) is setup via a Node `npm` package on any machine where you have
 remote projects to which Nuclide will connect.
 
@@ -63,21 +63,21 @@ There are two ways to connect to a project on your remote server.
 
 If you do not have any projects currently open in Nuclide, you can click on the
 `Add Remote Project Folder` button in the
-[file tree](/docs/editor/basics/#project-and-file-explorer).
+[file tree](/nuclide/docs/editor/basics/#project-and-file-explorer).
 
-![](/static/images/docs/feature-remote-add-remote-project-file-tree.png)
+![](/nuclide/static/images/docs/feature-remote-add-remote-project-file-tree.png)
 
 If you have a project already open, then you can use the keyboard shortcut `ctrl-shift-cmd-C`
 (Mac only) or `Packages | Connect`
 
-![](/static/images/docs/feature-remote-connect-menu.png)
+![](/nuclide/static/images/docs/feature-remote-connect-menu.png)
 
 ### Connection Dialog Box
 
 All the required information to connect to the remote Nuclide server is entered in the connection
 dialog box.
 
-![](/static/images/docs/feature-remote-connect-dialog-box.png)
+![](/nuclide/static/images/docs/feature-remote-connect-dialog-box.png)
 
 > All of the values shown above are examples and will vary based on your own username, filesystem,
 and SSH and Nuclide configuration. The options are as follows:
@@ -108,11 +108,11 @@ After supplying these options, click `OK` to connect.
 In order to reduce the tediousness of having to specify the same connection information over and
 over for machines you connect to frequently, you can use profiles.
 
-![](/static/images/docs/feature-remote-profiles.png)
+![](/nuclide/static/images/docs/feature-remote-profiles.png)
 
 To create a profile, click on the `+` button.
 
-![](/static/images/docs/feature-remote-add-profile.png)
+![](/nuclide/static/images/docs/feature-remote-add-profile.png)
 
 Any pre-filled information will be based on your `default` profile. Enter all of your connection
 information for the new profile (similar to that in the
@@ -125,10 +125,10 @@ information for the new profile (similar to that in the
 
 Once you have established a [remote connection](#remote-connection) and the Nuclide server is
 initiated, the root folder of the project will be added to the
-[file tree](/docs/editor/basics/#project-and-file-explorer), underneath any other local (or other
+[file tree](/nuclide/docs/editor/basics/#project-and-file-explorer), underneath any other local (or other
 remote) projects you currently have open.
 
-![](/static/images/docs/feature-remote-file-tree.png)
+![](/nuclide/static/images/docs/feature-remote-file-tree.png)
 
 Nuclide has now established a connection between your local client and the remote server, and
 development can take place as normal.

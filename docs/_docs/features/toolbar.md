@@ -20,7 +20,7 @@ By default, the toolbar is not installed.
 ## Installing
 
 The toolbar can be installed as part of installing the
-[recommended packages](/docs/editor/setup/#post-installation__recommended-packages) through the
+[recommended packages](/nuclide/docs/editor/setup/#post-installation__recommended-packages) through the
 Nuclide package settings or it can be installed separately through the normal Atom package
 installation process.
 
@@ -32,7 +32,7 @@ the toolbar separately.
 Go to `Packages | Settings View | Install Packages/Themes`. In the `Search packages` textbox, type
 `tool-bar`.
 
-![](/static/images/docs/feature-toolbar-find-package.png)
+![](/nuclide/static/images/docs/feature-toolbar-find-package.png)
 
 Click `Install`.
 
@@ -48,18 +48,18 @@ You can toggle the tool bar either through `Packages | Tool Bar | Toggle` or usi
 
 The toolbar has buttons that, when clicked, take you to a specific feature of Nuclide.
 
-![](/static/images/docs/feature-toolbar-buttons.png)
+![](/nuclide/static/images/docs/feature-toolbar-buttons.png)
 
-- ![](/static/images/docs/feature-toolbar-button-nuclide-settings.png) Show the Nuclide settings view.
-- ![](/static/images/docs/feature-toolbar-button-nuclide-health.png) Toggle the Nuclide health statistics.
-- ![](/static/images/docs/feature-toolbar-button-debugger.png) Toggle the debugger.
-- ![](/static/images/docs/feature-toolbar-button-diagnostics.png) Toggle the diagnostics window.
-- ![](/static/images/docs/feature-toolbar-button-diff-view.png) Toggle diff view.
-- ![](/static/images/docs/feature-toolbar-button-outline-view.png) Toggle outline view.
-- ![](/static/images/docs/feature-toolbar-button-test-runner.png) Toggle the test runner.
-- ![](/static/images/docs/feature-toolbar-button-buck-toolbar.png) Toggle the Buck toolbar.
-- ![](/static/images/docs/feature-toolbar-button-hhvm-toolbar.png) Toggle the HHVM toolbar.
-- ![](/static/images/docs/feature-toolbar-button-distraction-free-mode.png) Toggle distraction free mode.
+- ![](/nuclide/static/images/docs/feature-toolbar-button-nuclide-settings.png) Show the Nuclide settings view.
+- ![](/nuclide/static/images/docs/feature-toolbar-button-nuclide-health.png) Toggle the Nuclide health statistics.
+- ![](/nuclide/static/images/docs/feature-toolbar-button-debugger.png) Toggle the debugger.
+- ![](/nuclide/static/images/docs/feature-toolbar-button-diagnostics.png) Toggle the diagnostics window.
+- ![](/nuclide/static/images/docs/feature-toolbar-button-diff-view.png) Toggle diff view.
+- ![](/nuclide/static/images/docs/feature-toolbar-button-outline-view.png) Toggle outline view.
+- ![](/nuclide/static/images/docs/feature-toolbar-button-test-runner.png) Toggle the test runner.
+- ![](/nuclide/static/images/docs/feature-toolbar-button-buck-toolbar.png) Toggle the Buck toolbar.
+- ![](/nuclide/static/images/docs/feature-toolbar-button-hhvm-toolbar.png) Toggle the HHVM toolbar.
+- ![](/nuclide/static/images/docs/feature-toolbar-button-distraction-free-mode.png) Toggle distraction free mode.
 
 ## Uninstalling
 
@@ -67,4 +67,4 @@ You can uninstall the toolbar by following the normal Atom package uninstall mec
 `Packages | Settings View | Update Packages/Themes` and clicking `Uninstall` under the `Tool-bar`
 package.
 
-> If you [uninstall Nuclide](/docs/editor/uninstall/), the tool-bar is *not* uninstalled.
+> If you [uninstall Nuclide](/nuclide/docs/editor/uninstall/), the tool-bar is *not* uninstalled.

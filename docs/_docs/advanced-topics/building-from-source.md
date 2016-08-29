@@ -5,7 +5,7 @@ layout: docs
 permalink: /docs/advanced-topics/building-from-source/
 ---
 
-It is generally recommended to [install the released package of Nuclide](/docs/setup), but for
+It is generally recommended to [install the released package of Nuclide](/nuclide/docs/setup), but for
 those willing to live on the bleeding edge, you can install Nuclide from source.
 
 * TOC
@@ -15,7 +15,7 @@ those willing to live on the bleeding edge, you can install Nuclide from source.
 
 ### Prerequisites
 
-You must have the [general prerequisites](/docs/editor/setup#mac__prerequisites) installed. In
+You must have the [general prerequisites](/nuclide/docs/editor/setup#mac__prerequisites) installed. In
 addition, you must have Xcode and **Node 5.10.0** installed as well.
 
 Xcode can be installed from the App Store. Installation can take a *long, long* time. So be patient.
@@ -69,7 +69,7 @@ Verify the installation by:
 
 ### Prerequisites
 
-You must have the [general prerequisites](/docs/editor/setup#linux__prerequisites) installed. In
+You must have the [general prerequisites](/nuclide/docs/editor/setup#linux__prerequisites) installed. In
 addition, you must have **Node 5.10.0** installed as well.
 
 To install Node, see [Node.js's download page](https://nodejs.org/en/download/) for steps that work best for your setup.
@@ -121,7 +121,7 @@ Verify the installation by:
 Building Nuclide from source is not currently supported on Windows.
 
 > It is possible to build Nuclide from source on Windows, but this is done with no guarantee of
-> success. The feature set will also be [limited](/docs/editor/setup/#windows).
+> success. The feature set will also be [limited](/nuclide/docs/editor/setup/#windows).
 
 ## Development Mode
 

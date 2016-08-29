@@ -25,7 +25,7 @@ Nuclide will attempt to find a Swift executable automatically:
 You may use a specific version of Swift by setting the "Swift Toolchain Path"
 in the Nuclide settings:
 
-![](/static/images/docs/language-swift-toolchain-path.png)
+![](/nuclide/static/images/docs/language-swift-toolchain-path.png)
 
 Nuclide uses [SourceKitten](https://github.com/jpsim/SourceKitten) in order to
 provide features such as [autocompletion]((#features__autocompletion)).
@@ -42,7 +42,7 @@ You may configure Nuclide to use a SourceKitten executable at a different
 location by setting the "Path to SourceKitten Executable" in the Nuclide
 settings:
 
-![](/static/images/docs/language-swift-sourcekitten-path.png)
+![](/nuclide/static/images/docs/language-swift-sourcekitten-path.png)
 
 ## Features
 
@@ -54,36 +54,36 @@ Swift integration in Nuclide provides you with productivity features such as:
 
 ### Building a Swift package
 
-Select `Swift > Build` from the [Nuclide toolbar](/docs/features/toolbar/#buttons)
-(or use the [command-palette](/docs/editor/basics/#command-palette) `Nuclide Task Runner: Toggle Swift Toolbar`)
+Select `Swift > Build` from the [Nuclide toolbar](/nuclide/docs/features/toolbar/#buttons)
+(or use the [command-palette](/nuclide/docs/editor/basics/#command-palette) `Nuclide Task Runner: Toggle Swift Toolbar`)
 to display options for building a Swift package.
 
-![](/static/images/docs/language-swift-build-toolbar.png)
+![](/nuclide/static/images/docs/language-swift-build-toolbar.png)
 
 Enter the path to a Swift package's root directory, then click "Build" to build
 the package. (This path is entered automatically if your project root is set to
 a Swift package root.) Build output is displayed in the console.
 
-![](/static/images/docs/language-swift-build-output.png)
+![](/nuclide/static/images/docs/language-swift-build-output.png)
 
 You can customize build settings, such as whether to build the package in a
 "Debug" or "Release" configuration, by clicking the gear icon on the right
 of the toolbar.
 
-![](/static/images/docs/language-swift-build-toolbar-settings.png)
+![](/nuclide/static/images/docs/language-swift-build-toolbar-settings.png)
 
 ### Running a Swift package's tests
 
-Select `Swift > Test` from the [Nuclide toolbar](/docs/features/toolbar/#buttons)
+Select `Swift > Test` from the [Nuclide toolbar](/nuclide/docs/features/toolbar/#buttons)
 to display options for running a Swift package's tests.
 
-![](/static/images/docs/language-swift-test-toolbar.png)
+![](/nuclide/static/images/docs/language-swift-test-toolbar.png)
 
 Enter the path to a Swift package's root directory, then click "Test" to run the
 package's tests. (This path is entered automatically if your project root is set
 to a Swift package root.) Test output is displayed in the console.
 
-![](/static/images/docs/language-swift-test-output.png)
+![](/nuclide/static/images/docs/language-swift-test-output.png)
 
 As with the Swift build toolbar, clicking the gear icon displays additional
 settings for running your Swift package's tests.
@@ -94,4 +94,4 @@ Once you have [built your Swift package via the Nuclide toolbar](#features__buil
 Nuclide will be able to provide autocompletion suggestions for Swift source
 code.
 
-![](/static/images/docs/language-swift-autocompletion.png)
+![](/nuclide/static/images/docs/language-swift-autocompletion.png)

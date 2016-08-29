@@ -36,20 +36,20 @@ Buck tasks live in the Task Runner toolbar.
    from the Nuclide menu press *Nuclide > Task Runner > Toggle Toolbar Visibility*.
 2. Choose any of the Buck tasks from the Task Runner toolbar's dropdown.
 
-<img src="/static/images/docs/feature-buck-task-runner.png" width="445" />
+<img src="/nuclide/static/images/docs/feature-buck-task-runner.png" width="445" />
 
 ### Via the Nuclide menu
 
 The Nuclide top-level menu contains a *Buck* submenu:
 
-<img src="/static/images/docs/feature-buck-nuclide-menu.png" width="435" />
+<img src="/nuclide/static/images/docs/feature-buck-nuclide-menu.png" width="435" />
 
 ### Via Atom's Command Palette
 
 Open the Command Palette (`cmd-shift-p` or `ctrl-shift-p` on Linux/Windows)
 and type "buck":
 
-<img src="/static/images/docs/feature-buck-command-palette.png" width="568" />
+<img src="/nuclide/static/images/docs/feature-buck-command-palette.png" width="568" />
 
 > You can use these commands to add keybindings in Atom's keymap:
 >
@@ -81,11 +81,11 @@ as you would specify to Buck on the command line, i.e. `//path/to/dir:target_nam
 
 Note that the usual leading `//` is optional.
 
-<img src="/static/images/docs/feature-buck-build.png" />
+<img src="/nuclide/static/images/docs/feature-buck-build.png" />
 
 Pressing the Settings (gear) button will bring up a dialog where you can provide extra flags to Buck.
 
-<img src="/static/images/docs/feature-buck-build-settings.png" width="625" />
+<img src="/nuclide/static/images/docs/feature-buck-build-settings.png" width="625" />
 
 Upon pressing build, output will appear in a new Console pane. Build progress
 will be displayed via a blue progress bar below the toolbar, and also periodically
@@ -93,13 +93,13 @@ via messages in the Console.
 
 Press the stop button at any time to cancel an ongoing build.
 
-<img src="/static/images/docs/feature-buck-build-console.png" />
+<img src="/nuclide/static/images/docs/feature-buck-build-console.png" />
 
 In addition to showing up in the console, C++ compilation errors will additionally
-be surfaced in [Diagnostics](/docs/editor/basics/#code-diagnostics).
+be surfaced in [Diagnostics](/nuclide/docs/editor/basics/#code-diagnostics).
 Buck diagnostics will be cleared upon triggering a new build.
 
-<img src="/static/images/docs/feature-buck-build-diagnostics.png" />
+<img src="/nuclide/static/images/docs/feature-buck-build-diagnostics.png" />
 
 ### Run
 
@@ -109,7 +109,7 @@ The "Run" task is only enabled for iOS and Android application targets
 and builds, installs, and then runs the app.
 Build output will be reported as documented in the [Build workflow](#build).
 
-<img src="/static/images/docs/feature-buck-run.png" />
+<img src="/nuclide/static/images/docs/feature-buck-run.png" />
 
 For iOS rules, the simulator type can be explicitly provided via the toolbar dropdown. <br />
 The *React Native Server Mode* checkbox optionally starts the React Native packager
@@ -129,7 +129,7 @@ The "Debug" task is only enabled for the following target types:
 - C++ unit tests (`cxx_test`)
 - C++ binaries (`cxx_binary`)
 
-The [LLDB debugger](/docs/languages/cpp/#debugging) is invoked after a
+The [LLDB debugger](/nuclide/docs/languages/cpp/#debugging) is invoked after a
 successful build in all three cases, but with slight variations.
 
 #### iOS Applications
@@ -155,4 +155,4 @@ For C++ binaries, LLDB is launched directly against the output binary
 after a successful `buck build`.
 Extra launch arguments can be specified using the Settings (gear) button:
 
-<img src="/static/images/docs/feature-buck-debug.png" width="564" />
+<img src="/nuclide/static/images/docs/feature-buck-debug.png" width="564" />
